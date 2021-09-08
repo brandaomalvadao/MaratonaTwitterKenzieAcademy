@@ -1,0 +1,98 @@
+/* CORPO */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* CABEÇALHO */
+.cabeçalho{
+    flex-basis: 30%;
+}
+.cabeçalho__logo{
+    margin-bottom: 50px;
+}
+.cabeçalho__logo img{}
+.cabeçalho__logo figcaption{
+    display: none;
+}
+
+.cabeçalho__menuNavegação{}
+.cabeçalho__menuLista{}
+.cabeçalho__menuItem{
+    margin-bottom: 25px;
+}
+.cabeçalho__menuItem img{
+    max-width: 26px;
+}
+.cabeçalho__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.conteúdoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+.conteúdoPrincipal__titulo{
+    padding: 10px 30px;
+}
+
+.conteúdoPrincipal__formulário{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.conteúdoPrincipal__formulário textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.conteúdoPrincipal__formulário button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.conteúdoPrincipal__feed{}
+.conteúdoPrincipal__listaTweets{}
+.conteúdoPrincipal__tweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil{}
+.tweet__conteúdo{
+    margin-left: 15px;
+}
+.tweet__conteúdo h2{
+    display: inline-block;
+}
+.tweet__conteúdo span{
+    display: inline-block;
+    color: #828282;
+}
+.tweet__conteúdo p{
+    margin-top: 15px;
+    color: #333333;
+}
+
+
